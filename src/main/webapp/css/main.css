@@ -1,0 +1,213 @@
+body {
+    background: linear-gradient(-45deg, rgba(8, 232, 252, 0.66), rgba(39, 100, 255, 0.61), rgba(153, 23, 246, 0.64), rgba(35, 80, 219, 0.68));
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    color: white;
+}
+.header {
+    overflow: hidden; /*Видимость вылезших элементов*/
+    background: #81dae8;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 120px;
+    /*text-align: right;*/
+}
+#logo {
+    float: left;
+}
+#info {
+    /*text-align: center;*/
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0px 10px 0px;
+    float: right;
+}
+.main {
+    /*margin: 120px auto 0px;*/
+    padding: 1px 5px 1px;
+    color: #ffffff;
+    width: available;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+
+}
+h1{
+    margin: 10px;
+    color: white;
+    font-size: 22px;
+}
+h2 {
+    color: white;
+    font-size: 100%;
+    font-style: normal;
+    font-family: sans-serif;
+    text-align: left;
+    margin: 20px 10px 5px;
+}
+
+.warn-checkbox {
+    margin: 0px 0px 0px 10px;
+    color: red;
+}
+.warn-text {
+    border-color: red;
+}
+
+iframe {
+    border-width: 0px;
+    width: 100%;
+    height: 270px;
+}
+
+input{
+    color: black;
+    margin: 0px 10px 3px;
+}
+
+
+/*BUTTONS styles*/
+.button {
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: rgba(6, 95, 196, 0.83);
+
+}
+.button:hover:enabled {
+    background-color: rgba(6, 95, 196, 0.83);
+
+}
+.button:disabled {
+    background-color: rgba(6, 95, 196, 0.83);
+
+}
+.button.in-button{
+    width: 32px;
+    margin: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+.button.submit-button{
+    margin: 15px 5px 5px 70px;
+    border-radius: 10px;
+    background-color: rgba(6, 95, 196, 0.83);
+
+}
+.button.history-button{
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgba(6, 95, 196, 0.83);
+
+}
+#submit {
+    margin: 15px -26px 39px 10px;
+    background-color: rgba(6, 95, 196, 0.83);
+
+}
+
+.button-div{
+    margin: 0px 0px 0px 10px;
+
+}
+.main canvas {
+    float: right;
+    margin-right: 150px;
+}
+#result-table{
+    margin-top: 72px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #000720;
+    border-collapse: collapse;
+    width: 90%;
+}
+#result-table td, #result-table th{
+    text-align: center;
+}
+#result-table th{
+
+    background-color: #000720;
+    color: white;
+}
+#result-table * {
+    padding: 25px;
+}
+
+
+.header-section {
+    background-color: rgba(6, 95, 196, 0.83);
+    border-radius: 25px;
+    /*position: -webkit-sticky;*/
+    /*position: sticky;*/
+    top: 0;
+    left: 0;
+    height: 16vh;
+}
+.hatter__img {
+    width: 80px;
+    height: 80px;
+
+}
+
+.hatter {
+    align-items: center;
+}
+
+.hatter__desc {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hatter__desc p {
+    font-size: 20px;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+/* form */
+.main-offer__form {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    padding-top: 10vh;
+}
+.font1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.d-flex {
+    display: -webkit-flex;
+    display: compact;
+}
+
+.table-wrap {
+    font-family: 'Montserrat', sans-serif;
+}
+.table-section {
+    padding: 110px 0;
+}
+.table {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    grid-gap: 2vw;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+
